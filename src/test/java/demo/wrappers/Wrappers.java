@@ -119,7 +119,7 @@ public void oscarMovies() throws InterruptedException{
     }
     saveToJson(movieData,"oscar-winner-data.json");
 }
-
+//hi
 public static void saveToJson(ArrayList<HashMap<String, Object>> data,String path) {
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
